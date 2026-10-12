@@ -1,0 +1,16 @@
+include <stdio.h>
+
+int main()
+{
+
+        int user;
+        puts("enter password");
+        scanf("%d",&user);
+        if (user==1337){
+                puts("Correct password.");
+        }
+        else {
+                puts("Wrong password");
+        }
+}
+
